@@ -43,11 +43,6 @@ NOTA: i testi di questo include sono in italiano fisso e NON passano da ui-text.
 .sv-btn{display:inline-flex;align-items:center;justify-content:center;gap:.5rem;padding:.8rem 1.35rem;border-radius:10px;font-weight:700;font-size:1rem;line-height:1.2;text-decoration:none !important;border:2px solid transparent;cursor:pointer}
 .sv-btn--wa{background:#25d366;color:#fff !important}
 .sv-btn--wa:hover{background:#1ebe5b}
-.sv-btn--wa{position:relative;overflow:hidden;isolation:isolate;box-shadow:0 0 0 0 rgba(37,211,102,.55);animation:sv-pulse 2.6s ease-out infinite}
-.sv-btn--wa::after{content:"";position:absolute;top:-20%;left:-60%;width:40%;height:140%;background:linear-gradient(105deg,transparent 0%,rgba(255,255,255,.75) 50%,transparent 100%);transform:skewX(-20deg);animation:sv-shine 3s ease-in-out infinite;pointer-events:none;z-index:1}
-@keyframes sv-shine{0%,55%{left:-60%}100%{left:130%}}
-@keyframes sv-pulse{0%{box-shadow:0 0 0 0 rgba(37,211,102,.55)}70%,100%{box-shadow:0 0 0 14px rgba(37,211,102,0)}}
-@media (prefers-reduced-motion:reduce){.sv-btn--wa,.sv-btn--wa::after{animation:none}}
 .sv-btn--tel{background:#fff;color:var(--t-accent,#c8102e) !important;border-color:var(--t-accent,#c8102e)}
 .sv-btn--tel:hover{background:#fbecee}
 .sv-btn--form{background:transparent;color:var(--t-accent,#c8102e) !important;text-decoration:underline !important;border-color:transparent;padding:.8rem .6rem;font-weight:600}
