@@ -1,8 +1,4 @@
-# Riquadro "foto + presentazione" in cima alla barra laterale degli articoli.
-# Compare solo se "foto" e' compilata. Esempio:
-#   foto: /assets/images/chi-siamo.jpg
-#   titolo: "Nome Sito"
-#   testo: "Una frase che presenta il sito."
-foto: ""
-titolo: ""
-testo: ""
+# Riquadro "foto + presentazione" in cima alla barra laterale (compare solo se "foto" e' compilata).
+foto: /assets/images/hero.jpg
+titolo: "Edil Cramor"
+testo: "Interventi edili per condomini, privati e professionisti del settore: un unico interlocutore dalla valutazione iniziale al completamento delle opere."
