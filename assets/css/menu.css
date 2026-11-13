@@ -188,4 +188,10 @@ a.nv__dd-item.active, a.nv__dd-item.active:visited, a.nv__dd-item.active:hover {
   .nv__tools { padding-left: .35em; gap: .35em; }
   .nv__tools .search__toggle, .nv__cart { font-size: 1em; padding: .5em .55em; }
 }
-.nv__logo{width:auto!important;height:40px!important;border-radius:0!important;box-shadow:none!important}
+.nv__logo{width:auto!important;height:44px!important;border-radius:0!important;box-shadow:none!important}
+.nv__brand{display:flex!important;align-items:center;gap:.6rem;text-decoration:none!important}
+.nv__txt{display:flex;flex-direction:column;line-height:1.05}
+.nv__txt b{font-size:1.45rem;font-weight:800;letter-spacing:.04em;color:#111}
+.nv__txt b i{font-style:normal;color:#720212}
+.nv__txt small{font-size:.62rem;letter-spacing:.16em;text-transform:uppercase;color:#444;margin-top:.2rem;font-weight:600}
+@media (max-width:480px){.nv__logo{height:34px!important}.nv__txt b{font-size:1.15rem}.nv__txt small{display:none}}
