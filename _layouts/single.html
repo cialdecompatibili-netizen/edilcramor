@@ -32,7 +32,7 @@ PER CAMBIARE COSA COMPARE usa il front matter della pagina (header, share, relat
 {%- assign show_ps = true -%}
 {%- if page.sidebar == false or page.url contains "carrello" or page.url contains "ordine" or page.url contains "grazie" or page.url contains "/cart" or page.url contains "/order" or page.url contains "/thank" -%}{%- assign show_ps = false -%}{%- endif -%}
 <div id="main" role="main"{% if show_ps %} class="has-postside"{% endif %}>
-  {% include sidebar.html locale=locale %}
+  {% unless show_ps %}{% include sidebar.html locale=locale %}{% endunless %}
 
   <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork"{% if page.locale %} lang="{{ page.locale }}"{% endif %}>
     {% if page.title %}<meta itemprop="headline" content="{{ page.title | replace: '|', '&#124;' | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
