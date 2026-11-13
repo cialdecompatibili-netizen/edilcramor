@@ -10,6 +10,8 @@ lang: en
 locale: en
 tr: tradotto
 permalink: /en/portfolio/
+seo_title: "Portfolio of renovation and maintenance works"
+seo_description: "Edil Cramor portfolio: waterproofing, facade restoration, safety works, roofing and renovations."
 ---
 Examples of the works we carry out for condominiums, private clients and businesses.
 

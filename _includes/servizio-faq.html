@@ -13,7 +13,7 @@ GUIDA-SVILUPPO: FAQ + dati strutturati (JSON-LD Service e FAQPage) delle pagine 
 {%- assign sv_desc = page.seo_description | default: page.description | default: page.excerpt | strip_html | normalize_whitespace -%}
 {%- if page.faq and page.faq.size > 0 -%}
 <section class="sv-faq" id="domande-frequenti">
-  <h2>Domande frequenti</h2>
+  <h2>{% if page.lang == 'en' %}Frequently asked questions{% else %}Domande frequenti{% endif %}</h2>
   {%- for f in page.faq %}
   <details>
     <summary>{{ f.q }}</summary>

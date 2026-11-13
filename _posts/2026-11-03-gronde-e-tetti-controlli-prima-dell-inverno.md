@@ -9,6 +9,8 @@ categories:
   - Guide
 header:
   teaser: /assets/images/posts/gronde-e-tetti-controlli-prima-dell-inverno.webp
+seo_title: "Gronde e tetti: controlli prima dell'inverno"
+seo_description: "Gronde e tetti, i controlli da fare prima dell'inverno: pulizia canali, tegole, lattonerie e pluviali per evitare infiltrazioni e danni alle facciate."
 ---
 <img src="{{ '/assets/images/posts/gronde-e-tetti-controlli-prima-dell-inverno.webp' | relative_url }}" alt="Gronde e tetti: i controlli da fare prima dell'inverno" style="width:100%;border-radius:10px;margin:0 0 1.2rem">
 
@@ -31,6 +33,19 @@ Una gronda ostruita fa traboccare l'acqua lungo la facciata, mentre una tegola f
 4. Pianificare la manutenzione straordinaria se serve.
 
 Un controllo annuale costa poco rispetto a una riparazione dopo un'infiltrazione.
+
+## La checklist essenziale
+Prima dei mesi freddi conviene verificare canali di gronda e pluviali liberi da foglie, tegole o coppi in posizione, lattonerie ben fissate e assenza di macchie sotto la copertura. Piccoli problemi risolti ora evitano danni con piogge e gelo.
+
+## Quando chiamare un professionista
+Se la copertura è alta o difficile da raggiungere non salire da soli: un'ispezione con documentazione fotografica, anche su fune, permette di intervenire in sicurezza e di programmare le riparazioni necessarie.
+
+## Domande frequenti
+### Perché le gronde intasate sono un problema?
+L'acqua trabocca e bagna facciate e cornicioni, favorendo umidità, muffe e distacchi.
+
+### Quando fare la pulizia?
+Idealmente a fine autunno, dopo la caduta delle foglie, e di nuovo in primavera.
 
 [Approfondisci il servizio]({{ '/servizi/manutenzione-coperture-tetti-e-gronde/' | relative_url }})
 

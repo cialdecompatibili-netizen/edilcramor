@@ -9,6 +9,8 @@ categories:
   - Guide
 header:
   teaser: /assets/images/posts/quando-rifare-la-facciata-del-condominio.webp
+seo_title: "Quando rifare la facciata del condominio"
+seo_description: "I segnali che indicano quando rifare o ripristinare la facciata di un condominio: crepe, distacchi, umidità, frontalini. Come valutare tempi e interventi."
 ---
 <img src="{{ '/assets/images/posts/quando-rifare-la-facciata-del-condominio.webp' | relative_url }}" alt="Quando rifare la facciata del condominio: i segnali da non ignorare" style="width:100%;border-radius:10px;margin:0 0 1.2rem">
 
@@ -31,6 +33,19 @@ Le crepe fanno entrare l'acqua e l'acqua accelera il degrado. I distacchi, inolt
 4. Esecuzione dei lavori: rimozione delle parti ammalorate, ripristino degli intonaci e tinteggiatura.
 
 Una manutenzione programmata evita interventi urgenti e molto più costosi.
+
+## Rifacimento o ripristino parziale?
+Se il degrado è circoscritto, un ripristino mirato di intonaci, frontalini e balconi basta. Quando le lesioni sono diffuse o l'intonaco non aderisce più, conviene il rifacimento della facciata, così si risolve il problema in un'unica fase.
+
+## Come arrivare preparati all'assemblea
+Una relazione con foto dei punti critici e un preventivo per voci aiuta l'amministratore a presentare le alternative e a far decidere con dati concreti. I rilievi si possono fare anche con drone o su fune, senza ponteggio.
+
+## Domande frequenti
+### Quanto prima conviene intervenire?
+Appena compaiono distacchi: oltre al decoro c'è il rischio di caduta di parti dall'alto.
+
+### Serve sempre il ponteggio?
+No, per lavori localizzati o difficili da raggiungere si può operare anche su fune.
 
 [Approfondisci il servizio]({{ '/servizi/ripristino-facciate/' | relative_url }})
 

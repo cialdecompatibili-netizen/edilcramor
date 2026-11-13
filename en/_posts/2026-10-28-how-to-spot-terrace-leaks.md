@@ -10,6 +10,8 @@ categories:
 header:
   teaser: /assets/images/posts/infiltrazioni-terrazzo-come-riconoscerle.webp
 tr: tradotto
+seo_title: "Terrace leaks: signs and remedies"
+seo_description: "Ceiling stains, mould, flaking plaster: how to recognise leaks from terraces and balconies, which causes to look for and how to fix them."
 ---
 <img src="{{ '/assets/images/posts/infiltrazioni-terrazzo-come-riconoscerle.webp' | relative_url }}" alt="Terrace leaks: how to spot them and what to do" style="width:100%;border-radius:10px;margin:0 0 1.2rem">
 
@@ -31,6 +33,19 @@ Over time the membrane loses elasticity, the sealants crack and the slopes no lo
 4. Restore the parts damaged by water.
 
 Acting early costs less: limited damage today can become a bigger job tomorrow.
+
+## The most common causes
+Terrace leaks almost always come from a spent membrane, open joints and sealants, insufficient slopes or blocked drains. Knowing which one is at work avoids paying for the wrong fix.
+
+## How the entry point is found
+A technician checks slopes, upstands, thresholds and drains and compares the interior stains with the position of the critical areas. A documented survey decides whether a localised repair is enough or the waterproofing must be redone.
+
+## Frequently asked questions
+### Is a ceiling stain always a leak from above?
+No, it may also be condensation or a pipe leak. That is why it needs checking before any work.
+
+### Is it worth waiting after the first signs?
+Better not: water degrades the screed and reinforcement, and the cost of repair grows over time.
 
 [Learn more about the service]({{ '/en/services/waterproofing/' | relative_url }})
 

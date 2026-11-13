@@ -9,6 +9,8 @@ locale: en
 tr: da_aggiornare
 tr_hash: 15alr2i
 permalink: /en/services/
+seo_title: "Renovation and building maintenance services"
+seo_description: "Edil Cramor: safety works, rope-access works, terraces and balconies, waterproofing, roofs, facades, renovations and drone surveys."
 ---
 
 Works for condominiums, private clients and industry professionals: from the site inspection to the complete execution of the works.

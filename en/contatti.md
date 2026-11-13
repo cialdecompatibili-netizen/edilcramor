@@ -7,6 +7,8 @@ locale: en
 tr: tradotto
 tr_hash: e563ea
 permalink: /en/contact/
+seo_title: "Contact and request a site inspection"
+seo_description: "Request a site inspection and quote from Edil Cramor for renovations, facades, terraces, roofs and rope-access works."
 ---
 
 {%- comment -%}

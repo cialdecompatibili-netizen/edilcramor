@@ -9,6 +9,8 @@ categories:
   - Guide
 header:
   teaser: /assets/images/posts/cornicioni-e-frontalini-perche-si-staccano.webp
+seo_title: "Cornicioni e frontalini: perché si staccano"
+seo_description: "Perché cornicioni e frontalini si staccano: ferri ossidati, infiltrazioni e gelo. Come prevenire i distacchi e quando fare una messa in sicurezza."
 ---
 <img src="{{ '/assets/images/posts/cornicioni-e-frontalini-perche-si-staccano.webp' | relative_url }}" alt="Cornicioni e frontalini: perché si staccano e come prevenirlo" style="width:100%;border-radius:10px;margin:0 0 1.2rem">
 
@@ -31,6 +33,19 @@ L'acqua penetra attraverso piccole crepe e raggiunge i ferri di armatura. Il fer
 
 ## Prevenire
 Controlli periodici e piccoli ripristini in tempo evitano interventi urgenti. I distacchi, inoltre, sono un rischio per le persone: meglio non aspettare.
+
+## Il ruolo dei ferri d'armatura
+Quando l'acqua raggiunge i ferri, questi si ossidano e aumentano di volume: il calcestruzzo si fessura e si stacca. Per questo i distacchi si presentano spesso con macchie di ruggine e crepe lungo i bordi di balconi e cornicioni.
+
+## Prevenzione e controllo
+Controlli periodici, sigillature in buono stato e una corretta impermeabilizzazione di balconi e coperture rallentano il degrado. Se compaiono distacchi, la messa in sicurezza va fatta subito, seguita dal ripristino del copriferro.
+
+## Domande frequenti
+### Si può riparare senza rifare tutto il balcone?
+Spesso sì, con ripristino mirato di ferri e calcestruzzo; lo valuta il sopralluogo.
+
+### Il distacco è un rischio per chi passa?
+Sì, per questo conviene intervenire presto e, se serve, delimitare l'area.
 
 [Approfondisci il servizio]({{ '/servizi/messe-in-sicurezza-e-ripristini/' | relative_url }})
 

@@ -3,6 +3,8 @@ ref: contatti
 layout: single
 title: "Contatti"
 permalink: /contatti/
+seo_title: "Contatti e richiesta sopralluogo"
+seo_description: "Richiedi un sopralluogo e un preventivo a Edil Cramor per ristrutturazioni, facciate, terrazzi, tetti e lavori su fune."
 ---
 
 {%- comment -%}

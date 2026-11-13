@@ -9,6 +9,8 @@ categories:
   - Guide
 header:
   teaser: /assets/images/posts/infiltrazioni-terrazzo-come-riconoscerle.webp
+seo_title: "Infiltrazioni dal terrazzo: segnali e rimedi"
+seo_description: "Macchie sul soffitto, muffa, intonaco che si stacca: come riconoscere le infiltrazioni da terrazzi e balconi, quali cause cercare e come intervenire."
 ---
 <img src="{{ '/assets/images/posts/infiltrazioni-terrazzo-come-riconoscerle.webp' | relative_url }}" alt="Infiltrazioni dal terrazzo: come riconoscerle e cosa fare" style="width:100%;border-radius:10px;margin:0 0 1.2rem">
 
@@ -30,6 +32,19 @@ Con il tempo la guaina perde elasticità, le sigillature si crepano e le pendenz
 4. Ripristinare le parti danneggiate dall'acqua.
 
 Intervenire presto costa meno: un danno limitato oggi può diventare un cantiere più ampio domani.
+
+## Le cause più frequenti
+Le infiltrazioni da terrazzo nascono quasi sempre da guaina esaurita, giunti e sigillature aperti, pendenze insufficienti o scarichi ostruiti. Capire quale di queste cause è in gioco evita di spendere in un rimedio sbagliato.
+
+## Come si verifica il punto d'ingresso
+Un tecnico controlla pendenze, risvolti, soglie e scarichi e confronta le macchie interne con la posizione delle zone critiche. Con un sopralluogo documentato si decide se basta un intervento localizzato o se serve rifare l'impermeabilizzazione.
+
+## Domande frequenti
+### Una macchia sul soffitto è sempre un'infiltrazione?
+No, può essere anche condensa o una perdita di tubazioni. Per questo serve una verifica prima di intervenire.
+
+### Conviene aspettare dopo i primi segnali?
+Meglio di no: l'acqua degrada massetto e ferri, e il costo del ripristino cresce nel tempo.
 
 [Approfondisci il servizio]({{ '/servizi/impermeabilizzazioni/' | relative_url }})
 

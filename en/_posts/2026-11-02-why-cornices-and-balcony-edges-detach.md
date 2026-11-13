@@ -10,6 +10,8 @@ categories:
 header:
   teaser: /assets/images/posts/cornicioni-e-frontalini-perche-si-staccano.webp
 tr: tradotto
+seo_title: "Cornices and balcony edges: why they detach"
+seo_description: "Why cornices and balcony edges detach: oxidised reinforcement, leaks and frost. How to prevent detachment and when to make the area safe."
 ---
 <img src="{{ '/assets/images/posts/cornicioni-e-frontalini-perche-si-staccano.webp' | relative_url }}" alt="Cornices and balcony edges: why they detach and how to prevent it" style="width:100%;border-radius:10px;margin:0 0 1.2rem">
 
@@ -32,6 +34,19 @@ Water gets in through small cracks and reaches the reinforcing bars. The steel r
 
 ## Prevention
 Periodic checks and small timely repairs avoid urgent works. Detachments are also a risk to people: better not to wait.
+
+## The role of reinforcement bars
+When water reaches the bars they rust and expand: the concrete cracks and breaks away. That is why detachments often come with rust stains and cracks along the edges of balconies and cornices.
+
+## Prevention and checks
+Regular checks, sealants in good condition and proper waterproofing of balconies and roofs slow the decay. When detachments appear, the area must be made safe at once, followed by restoration of the concrete cover.
+
+## Frequently asked questions
+### Can it be repaired without redoing the whole balcony?
+Often yes, with a targeted repair of bars and concrete; the survey decides.
+
+### Is a detachment a risk for passers-by?
+Yes, so it is best to act early and, if needed, cordon off the area.
 
 [Learn more about the service]({{ '/en/services/safety-works-and-repairs/' | relative_url }})
 

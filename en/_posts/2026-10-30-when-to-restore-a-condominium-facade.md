@@ -10,6 +10,8 @@ categories:
 header:
   teaser: /assets/images/posts/quando-rifare-la-facciata-del-condominio.webp
 tr: tradotto
+seo_title: "When to restore a condominium facade"
+seo_description: "The signs showing when to repair or renew a condominium facade: cracks, detachments, damp, balcony edges. How to assess timing and works."
 ---
 <img src="{{ '/assets/images/posts/quando-rifare-la-facciata-del-condominio.webp' | relative_url }}" alt="When to restore a condominium facade: the signs not to ignore" style="width:100%;border-radius:10px;margin:0 0 1.2rem">
 
@@ -32,6 +34,19 @@ Cracks let water in and water speeds up decay. Detachments can also become a haz
 4. Execution: removal of damaged parts, plaster restoration and painting.
 
 Planned maintenance avoids urgent and much costlier work.
+
+## Full renewal or partial repair?
+If the damage is limited, a targeted repair of plaster, balcony edges and balconies is enough. When cracks are widespread or the plaster no longer adheres, renewing the facade solves the problem in a single phase.
+
+## Arriving prepared for the owners' meeting
+A report with photos of the critical points and an itemised quote help the manager present the options and have owners decide on concrete data. Surveys can also be done by drone or on ropes, without scaffolding.
+
+## Frequently asked questions
+### How soon should we act?
+As soon as detachments appear: besides appearance, there is a risk of parts falling from above.
+
+### Is scaffolding always needed?
+No, for localised or hard-to-reach works we can also work on ropes.
 
 [Learn more about the service]({{ '/en/services/facade-restoration/' | relative_url }})
 

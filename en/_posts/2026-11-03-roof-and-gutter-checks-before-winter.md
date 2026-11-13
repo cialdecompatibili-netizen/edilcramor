@@ -10,6 +10,8 @@ categories:
 header:
   teaser: /assets/images/posts/gronde-e-tetti-controlli-prima-dell-inverno.webp
 tr: tradotto
+seo_title: "Gutters and roofs: checks before winter"
+seo_description: "Gutters and roofs, the checks to make before winter: cleaning gutters, tiles, flashings and downpipes to prevent leaks and facade damage."
 ---
 <img src="{{ '/assets/images/posts/gronde-e-tetti-controlli-prima-dell-inverno.webp' | relative_url }}" alt="Gutters and roofs: checks to make before winter" style="width:100%;border-radius:10px;margin:0 0 1.2rem">
 
@@ -32,6 +34,19 @@ A blocked gutter makes water overflow down the facade, while a tile out of place
 4. Plan extraordinary maintenance if needed.
 
 An annual check costs little compared with a repair after a leak.
+
+## The essential checklist
+Before the cold months, check that gutters and downpipes are free of leaves, tiles are in place, flashings are firmly fixed and there are no stains under the roofing. Small problems fixed now prevent damage from rain and frost.
+
+## When to call a professional
+If the roof is high or hard to reach do not climb up yourself: an inspection with photographic documentation, including on ropes, lets us work safely and plan the repairs needed.
+
+## Frequently asked questions
+### Why are blocked gutters a problem?
+Water overflows and wets facades and cornices, encouraging damp, mould and detachments.
+
+### When should cleaning be done?
+Ideally in late autumn, after the leaves have fallen, and again in spring.
 
 [Learn more about the service]({{ '/en/services/roof-and-gutter-maintenance/' | relative_url }})
 
