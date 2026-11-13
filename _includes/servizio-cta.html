@@ -9,7 +9,33 @@ NOTA: i testi di questo include sono in italiano fisso e NON passano da ui-text.
     testo="..."   -> frase della striscia mini (facoltativa)
   Il messaggio WhatsApp parte gia' compilato con il nome del servizio.
 {%- endcomment -%}
-{%- assign sv_msg = "Buongiorno, vorrei un sopralluogo gratuito e un preventivo per: " | append: page.title | append: "." -%}
+{%- comment -%} TESTI IN DUE LINGUE (it/en): si cambiano qui, valgono per tutte le pagine servizio. {%- endcomment -%}
+{%- if page.lang == 'en' -%}
+  {%- assign tx_msg = "Hello, I would like a free site inspection and a quote for: " -%}
+  {%- assign tx_mini = "Have a question or want a quick answer? Send us a couple of lines and a photo on WhatsApp." -%}
+  {%- assign tx_wa = "Message us on WhatsApp" -%}
+  {%- assign tx_title = "Let's talk: free site inspection, clear quote" -%}
+  {%- assign tx_body = "The fastest way is WhatsApp: tell us what needs doing and attach 2 or 3 photos of the spot (even taken from the ground). We will tell you right away how to proceed, no obligation." -%}
+  {%- assign tx_call = "Call" -%}
+  {%- assign tx_call_soon = "Call (number coming soon)" -%}
+  {%- assign tx_form = "Prefer the form?" -%}
+  {%- assign tx_form_url = "/en/contact/" -%}
+  {%- assign tx_small = "We reply within 24 hours, excluding public holidays." -%}
+  {%- assign tx_aria = "Request a quote" -%}
+{%- else -%}
+  {%- assign tx_msg = "Buongiorno, vorrei un sopralluogo gratuito e un preventivo per: " -%}
+  {%- assign tx_mini = "Hai un dubbio o vuoi una risposta rapida? Scrivici due righe e una foto su WhatsApp." -%}
+  {%- assign tx_wa = "Scrivici su WhatsApp" -%}
+  {%- assign tx_title = "Parliamone: sopralluogo gratuito, preventivo chiaro" -%}
+  {%- assign tx_body = "Il modo più veloce è WhatsApp: scrivici cosa c'è da fare e allega 2 o 3 foto del punto (anche scattate da terra). Ti diciamo subito come procedere, senza impegno." -%}
+  {%- assign tx_call = "Chiama" -%}
+  {%- assign tx_call_soon = "Chiama (numero in arrivo)" -%}
+  {%- assign tx_form = "Preferisci il modulo?" -%}
+  {%- assign tx_form_url = "/contatti/" -%}
+  {%- assign tx_small = "Rispondiamo entro 24 ore, festivi esclusi." -%}
+  {%- assign tx_aria = "Richiedi un preventivo" -%}
+{%- endif -%}
+{%- assign sv_msg = tx_msg | append: page.title | append: "." -%}
 {%- assign sv_wa = "https://wa.me/" | append: site.whatsapp | append: "?text=" | append: sv_msg | url_encode -%}
 {%- if site.whatsapp == "" -%}{%- assign sv_wa = "#" -%}{%- endif -%}
 {%- unless sv_css_done -%}
@@ -39,18 +65,18 @@ NOTA: i testi di questo include sono in italiano fisso e NON passano da ui-text.
 {%- endunless -%}
 {%- if include.tipo == "mini" -%}
 <div class="sv-mini">
-  <p>{{ include.testo | default: "Hai un dubbio o vuoi una risposta rapida? Scrivici due righe e una foto su WhatsApp." }}</p>
-  <a class="sv-btn sv-btn--wa" href="{{ sv_wa }}" target="_blank" rel="noopener">Scrivici su WhatsApp</a>
+  <p>{{ include.testo | default: tx_mini }}</p>
+  <a class="sv-btn sv-btn--wa" href="{{ sv_wa }}" target="_blank" rel="noopener">{{ tx_wa }}</a>
 </div>
 {%- else -%}
-<aside class="sv-cta" aria-label="Richiedi un preventivo">
-  <p class="sv-cta__title">Parliamone: sopralluogo gratuito, preventivo chiaro</p>
-  <p>Il modo più veloce è WhatsApp: scrivici cosa c'è da fare e allega 2 o 3 foto del punto (anche scattate da terra). Ti diciamo subito come procedere, senza impegno.</p>
+<aside class="sv-cta" aria-label="{{ tx_aria }}">
+  <p class="sv-cta__title">{{ tx_title }}</p>
+  <p>{{ tx_body }}</p>
   <div class="sv-cta__row">
-    <a class="sv-btn sv-btn--wa" href="{{ sv_wa }}" target="_blank" rel="noopener">Scrivici su WhatsApp</a>
-    <a class="sv-btn sv-btn--tel" href="{% if site.whatsapp != '' %}tel:+{{ site.whatsapp }}{% else %}#{% endif %}">{% if site.whatsapp != '' %}Chiama +{{ site.whatsapp }}{% else %}Chiama (numero in arrivo){% endif %}</a>
-    <a class="sv-btn sv-btn--form" href="{{ '/contatti/' | relative_url }}">Preferisci il modulo?</a>
+    <a class="sv-btn sv-btn--wa" href="{{ sv_wa }}" target="_blank" rel="noopener">{{ tx_wa }}</a>
+    <a class="sv-btn sv-btn--tel" href="{% if site.whatsapp != '' %}tel:+{{ site.whatsapp }}{% else %}#{% endif %}">{% if site.whatsapp != '' %}{{ tx_call }} +{{ site.whatsapp }}{% else %}{{ tx_call_soon }}{% endif %}</a>
+    <a class="sv-btn sv-btn--form" href="{{ tx_form_url | relative_url }}">{{ tx_form }}</a>
   </div>
-  <p class="sv-cta__small">Rispondiamo entro 24 ore, festivi esclusi.</p>
+  <p class="sv-cta__small">{{ tx_small }}</p>
 </aside>
 {%- endif -%}
