@@ -89,7 +89,7 @@ PER CAMBIARE COSA COMPARE usa il front matter della pagina (header, share, relat
           si modifica li' e cambia su tutte le pagine. Qui viene inserito UNA volta sola, circa a 1/3 del testo
           (prima del titolo H2 in posizione "numero di H2 diviso 3", minimo il secondo). Poi FAQ in fondo.
         {%- endcomment -%}
-        {% if page.collection == "servizi" %}
+        {% if page.collection == "servizi" or page.collection == "posts" %}
           {%- capture cta_html %}{% include servizio-cta.html %}{% endcapture -%}
           {%- assign cta_parts = content | split: '<h2' -%}
           {%- if cta_parts.size > 2 -%}
@@ -101,7 +101,7 @@ PER CAMBIARE COSA COMPARE usa il front matter della pagina (header, share, relat
           {%- else -%}
             {{ content }}{{ cta_html }}
           {%- endif -%}
-          {% include servizio-faq.html %}
+          {% if page.collection == "servizi" %}{% include servizio-faq.html %}{% endif %}
         {% else %}
           {{ content }}
         {% endif %}
