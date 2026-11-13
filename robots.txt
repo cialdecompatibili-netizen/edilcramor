@@ -1,0 +1,15 @@
+---
+layout: null
+sitemap: false
+---
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /carrello/
+Disallow: /ordine/
+Disallow: /grazie/
+Disallow: /en/carrello/
+Disallow: /en/ordine/
+Disallow: /en/grazie/
+
+Sitemap: {{ '/sitemap.xml' | absolute_url }}

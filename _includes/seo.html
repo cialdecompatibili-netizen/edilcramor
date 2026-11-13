@@ -99,3 +99,32 @@ Per trovare hreflang e sitemap: cerca 'hreflang' in _includes e il file sitemap.
     <meta property="article:tag" content="{{ tag | escape }}">
   {% endfor %}
 {% endif %}
+
+{% comment %} DATI STRUTTURATI: azienda (tutte le pagine) e articolo (post). I servizi hanno il loro JSON-LD in servizio-faq.html. {% endcomment %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HomeAndConstructionBusiness",
+  "name": "Edil Cramor",
+  "slogan": "Ristrutturazioni e manutenzioni",
+  "url": {{ '/' | absolute_url | jsonify }},
+  "logo": {{ '/assets/images/logo-edilcramor.png' | absolute_url | jsonify }},
+  "image": {{ '/assets/images/logo-edilcramor.png' | absolute_url | jsonify }}
+}
+</script>
+{% if page.date and page.collection == 'posts' %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": {{ page.title | jsonify }},
+  "description": {{ seo_description | jsonify }},
+  "datePublished": {{ page.date | date_to_xmlschema | jsonify }},
+  "dateModified": {{ page.last_modified_at | default: page.date | date_to_xmlschema | jsonify }},
+  "mainEntityOfPage": {{ seo_url | jsonify }},
+  {% if seo_image %}"image": {{ seo_image | absolute_url | jsonify }},{% endif %}
+  "author": { "@type": "Organization", "name": "Edil Cramor" },
+  "publisher": { "@type": "Organization", "name": "Edil Cramor", "logo": { "@type": "ImageObject", "url": {{ '/assets/images/logo-edilcramor.png' | absolute_url | jsonify }} } }
+}
+</script>
+{% endif %}
