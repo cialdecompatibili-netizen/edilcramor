@@ -6,7 +6,7 @@ permalink: /portfolio/
 author_profile: false
 classes: wide
 share: false
-seo_description: "Portfolio Edilizia Eccellente: impermeabilizzazioni, ripristino facciate, messa in sicurezza, coperture e ristrutturazioni."
+seo_description: "Portfolio Edil Cramor: impermeabilizzazioni, ripristino facciate, messa in sicurezza, coperture e ristrutturazioni."
 ---
 Alcuni esempi delle lavorazioni che eseguiamo per condomini, privati e aziende.
 

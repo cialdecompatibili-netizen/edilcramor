@@ -8,7 +8,7 @@ immagine: "/assets/images/servizi/relazioni-tecniche-e-report-fotografici.webp"
 lang: en
 locale: en
 excerpt: "We document the state of the property before, during and after the works. Surveys, also by drone, descriptive reports and photo reports useful for condominiums, managers and professionals."
-seo_description: "Surveys, inspections and technical documentation: Surveys, also by drone, reports and photo documentation. Edilizia Eccellente."
+seo_description: "Surveys, inspections and technical documentation: Surveys, also by drone, reports and photo documentation. Edil Cramor."
 ---
 
 We document the state of the property before, during and after the works. Surveys, also by drone, descriptive reports and photo reports useful for condominiums, managers and professionals.

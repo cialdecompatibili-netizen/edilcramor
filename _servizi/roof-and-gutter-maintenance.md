@@ -8,7 +8,7 @@ immagine: "/assets/images/servizi/manutenzione-coperture-tetti-e-gronde.webp"
 lang: en
 locale: en
 excerpt: "A roof in good condition protects the whole building. We carry out maintenance and repairs on roofing, gutters and downpipes, to prevent leaks and costlier damage."
-seo_description: "Roofs, roofing and gutters: Renewal, repair and maintenance of roofs and gutters. Edilizia Eccellente."
+seo_description: "Roofs, roofing and gutters: Renewal, repair and maintenance of roofs and gutters. Edil Cramor."
 ---
 
 A roof in good condition protects the whole building. We carry out maintenance and repairs on roofing, gutters and downpipes, to prevent leaks and costlier damage.

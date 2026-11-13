@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Services"
-description: "Edilizia Eccellente: safety works, rope access, terraces and balconies, waterproofing, roofs, facades, renovations and drone surveys."
+description: "Edil Cramor: safety works, rope access, terraces and balconies, waterproofing, roofs, facades, renovations and drone surveys."
 author_profile: false
 ref: servizi
 lang: en

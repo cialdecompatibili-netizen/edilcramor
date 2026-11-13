@@ -4,7 +4,7 @@ title: "Servizi"
 permalink: /servizi/
 ref: servizi
 author_profile: false
-seo_description: "Edilizia Eccellente: messe in sicurezza, lavori su fune, terrazzi e balconi, impermeabilizzazioni, coperture, facciate, ristrutturazioni e sopralluoghi con drone."
+seo_description: "Edil Cramor: messe in sicurezza, lavori su fune, terrazzi e balconi, impermeabilizzazioni, coperture, facciate, ristrutturazioni e sopralluoghi con drone."
 ---
 
 Interventi per condomini, privati, aziende e professionisti del settore: un unico interlocutore dalla valutazione iniziale al completamento delle opere.

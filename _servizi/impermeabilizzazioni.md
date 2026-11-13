@@ -6,7 +6,7 @@ ref: servizio-impermeabilizzazioni
 icona: "💧"
 immagine: "/assets/images/servizi/impermeabilizzazioni.webp"
 excerpt: "Individuiamo l'origine delle infiltrazioni e risolviamo il problema alla radice, con la soluzione impermeabilizzante più adatta alla superficie: guaine, impermeabilizzazioni liquide o ripristini localizzati."
-seo_description: "Impermeabilizzazioni e infiltrazioni: Terrazzi, lastrici solari, guaine e infiltrazioni. Edilizia Eccellente."
+seo_description: "Impermeabilizzazioni e infiltrazioni: Terrazzi, lastrici solari, guaine e infiltrazioni. Edil Cramor."
 ---
 
 Individuiamo l'origine delle infiltrazioni e risolviamo il problema alla radice, con la soluzione impermeabilizzante più adatta alla superficie: guaine, impermeabilizzazioni liquide o ripristini localizzati.

@@ -2,7 +2,7 @@
 ref: portfolio
 layout: single
 title: "Portfolio"
-description: "Edilizia Eccellente portfolio: waterproofing, facade restoration, safety works, roofs and renovations."
+description: "Edil Cramor portfolio: waterproofing, facade restoration, safety works, roofs and renovations."
 author_profile: false
 classes: wide
 share: false
