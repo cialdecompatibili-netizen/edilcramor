@@ -68,6 +68,19 @@ PER CAMBIARE COSA COMPARE usa il front matter della pagina (header, share, relat
             <figure class="post-cover"><img src="{{ cover_src }}" alt="{{ page.header.teaser_alt | default: page.title | escape }}" decoding="async" fetchpriority="high"></figure>
           {% endunless %}
         {% endif %}
+        {%- comment -%} Copertina servizio: stessa foto dell'anteprima in elenco (immagine, altrimenti la stessa foto di ripiego di servizi-righe.html). Stessa grafica della copertina articolo. {%- endcomment -%}
+        {% if page.collection == "servizi" and page.header.overlay_image == nil %}
+          {%- assign sv_src = page.immagine | default: page.header.teaser -%}
+          {%- unless sv_src -%}
+            {%- assign sv_fotos = site.data.foto -%}
+            {%- assign sv_all = site.servizi | sort: "ordine" -%}
+            {%- assign sv_n = 0 -%}
+            {%- for s in sv_all -%}{%- if s.lang == page.lang -%}{%- if s.url == page.url -%}{%- assign sv_fi = sv_n | modulo: sv_fotos.size -%}{%- assign sv_src = '/assets/foto/' | append: sv_fotos[sv_fi].f | append: '.jpg' -%}{%- break -%}{%- endif -%}{%- assign sv_n = sv_n | plus: 1 -%}{%- endif -%}{%- endfor -%}
+          {%- endunless -%}
+          {%- if sv_src -%}{%- unless content contains sv_src -%}
+            <figure class="post-cover"><img src="{{ sv_src | relative_url }}" alt="{{ page.title | escape }}" decoding="async" fetchpriority="high"></figure>
+          {%- endunless -%}{%- endif -%}
+        {% endif %}
         {%- comment -%}
           Pagine servizio: il blocco CTA (WhatsApp, telefono, modulo) sta in UN SOLO file, _includes/servizio-cta.html:
           si modifica li' e cambia su tutte le pagine. Qui viene inserito UNA volta sola, circa a 1/3 del testo
